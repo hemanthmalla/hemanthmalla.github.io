@@ -9,37 +9,43 @@
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.0/css/font-awesome.min.css" />
 		<style type="text/css">
 			html, body{
-				color: #000000
+				color: #151E31;
+				height:100%;
+				width: 100%;
 			}
 			body{
-				background-color: #000000;
+				background-color: #151E31;
+				height:100%;
+				width: 100%;
+			}
+			.container{
+				display: flex;
 			}
 			.name-box{
-				margin-top: 25%;
-				background-color: #6B0103;
+				background-color: #81CEE6;
 			}
 			.name{
 				padding: 0;
 				font-family: 'Bungee Shade', cursive;
-				font-size: 60px;
+				font-size: 3.5vw;
 				font-weight: 800;
-				color: #000000;
+				color: #151E31;
 			}
 			.sub-heading{
 				margin-top: 1%;
 				font-family: 'Montserrat', sans-serif;
 				font-size: 20px;
 				font-weight: 700;
-				color: #6B0103;
+				color: #81CEE6;
 			}
 			.blog-card{
 				padding: 20px;
-				background-color: #6B0103;
+				background-color: #81CEE6;
 				margin: 10px;
 				border-radius: 3px;
 			}
 			.blog-card:hover{
-				box-shadow: 5px 5px 5px 5px #000000;
+				box-shadow: 5px 5px 5px 5px #151E31;
 			}
 			.blog-heading{
 				font-family: 'Quicksand', sans-serif;
@@ -51,7 +57,7 @@
 				font-family: 'Quicksand', sans-serif;
 				font-size: 20px;
 				font-weight: 700;
-				color: #000000;
+				color: #151E31;
 			}
 			.blog-box{
 				margin-top: 1%;
@@ -60,16 +66,16 @@
 				font-family: 'Quicksand', sans-serif;
 				font-size: 16px;
 				font-weight: 600;
-				color: #000000;
+				color: #151E31;
 			}
 			a, a:link, a:visited, a:hover, a:focus, a:active{
-				color: #000000;
+				color: #151E31;
 			}
 			.list-inline {
 			    display: inline-flex;
 			}
 			.fa-circle{
-				color: #6B0103;
+				color: #81CEE6;
 			}
 			.fa-box{
 				margin-top: 1%;
@@ -85,11 +91,15 @@
 			.blog-heading a{
 				position: relative;
 				z-index: 2;
+			}
+			.content-box{
+				height: fit-content;
 			} 
 		</style>
 	</head>
 	<body>
-		<div class="container">
+		<div class="container h-100 w-100 justify-content-center align-items-center">
+
 			<div class="col-12">
 				<div class="offset-2 col-8 name-box">
 					<div class="name text-center">Hemanth Malla</div>
